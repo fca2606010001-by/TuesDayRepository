@@ -14,9 +14,10 @@ int main(void)
 	BattleManager manager;
 
 	manager.StartBattle(&player);
+	manager.StartBattle(&wizard);
 	manager.StartBattle(&enemy);
 	manager.StartBattle(&boss);
-	manager.StartBattle(&wizard);
+
 
 	return 0;
 }
